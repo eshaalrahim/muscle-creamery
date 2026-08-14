@@ -1,25 +1,13 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
   "landingPage": "/wp-admin/",
-  "preferredVersions": {
-    "php": "8.3",
-    "wp": "latest"
-  },
   "steps": [
+    { "step": "login" },
     {
-      "step": "login",
-      "username": "admin",
-      "password": "password"
-    },
-    {
-      "step": "mkdir",
-      "path": "/wordpress/wp-content"
-    },
-    {
-      "step": "importWxr",
-      "file": {
+      "step": "importWordPressFiles",
+      "wordPressFilesZip": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/eshaalrahim/muscle-creamery/refs/heads/main/musclecreamery.WordPress.2026-08-14.xml"
+        "url": "https://raw.githubusercontent.com/eshaalrahim/muscle-creamery/blob/main/muscle-creamery-wordpress-playground.zip"
       }
     }
   ]
