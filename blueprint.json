@@ -7,7 +7,7 @@
       "step": "importWordPressFiles",
       "wordPressFilesZip": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/eshaalrahim/muscle-creamery/blob/main/muscle-creamery-wordpress-playground.zip"
+        "url": "https://raw.githubusercontent.com/eshaalrahim/muscle-creamery/main/muscle-creamery-wordpress-playground.zip"
       }
     }
   ]
